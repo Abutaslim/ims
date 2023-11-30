@@ -62,50 +62,57 @@
             <a href="#" class="nav-link active bg-yellow">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Admin/Director/TA 
+                Students 
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./users.php" class="nav-link ">
+                <a href="./students_list.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Users</p>
+                  <p>Student's List</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="./courses.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Courses</p>
                 </a>
-              </li>
-              <li class="nav-item">
+              </li> -->
+              <!-- <li class="nav-item">
                 <a href="./agencies.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Agencies</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
           <li <?php  if ( $page=='coordinator'){ echo 'class="nav-item menu-open "';} else{echo 'class="nav-item"'; }?>>
             <a href="#" class="nav-link active bg-green">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-               Coordinator
+               Reports
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./courses_his.php" class="nav-link ">
+                <a href="./generate_students_statistics.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Enrol Courses</p>
+                  <p>Students Statistic</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./students.php" class="nav-link">
+                <a href="./generate_id_card_printed.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Participants</p>
+                  <p>ID Card Printed</p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./generate_id_card_not_printed.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ID Card Not Printed</p>
                 </a>
               </li>
              
@@ -116,21 +123,21 @@
             <a href="#" class="nav-link active bg-brown">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Report
+                ID Card Printing
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./report.php" class="nav-link ">
+                <a href="./id_card_program.php" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Courses</p>
+                  <p>Print by Programme</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./finance.php" class="nav-link">
+                <a href="./id_card_reg.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Finances</p>
+                  <p>Print by Reg Number</p>
                 </a>
               </li>
               
